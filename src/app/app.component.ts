@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'disney';
+
+  rutas = [{
+    nombre: 'Home',
+    url: '/home',
+    icon: ''
+  },
+  {
+    nombre: 'Personajes',
+    url: '/personajes',
+    icon: ''
+  }]
 }
