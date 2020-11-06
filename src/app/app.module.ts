@@ -10,6 +10,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { HorizontalCardComponent } from './shared/horizontal-card/horizontal-card.component';
+import { MrIncreibleComponent } from './shared/mr-increible/mr-increible.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HorizontalCardComponent } from './shared/horizontal-card/horizontal-car
     PageNotFoundComponent,
     AboutUsComponent,
     FooterComponent,
-    HorizontalCardComponent
+    HorizontalCardComponent,
+    MrIncreibleComponent
   ],
   imports: [
     BrowserModule,
