@@ -9,7 +9,7 @@
             <p class="card-text">{{ personaje.biografia }}</p>
             <p class="card-text"><small class="text-muted">Cantidad de peliculas: {{ personaje.cantidadPeliculas }}</small></p>
             <p class="card-text"><small class="text-muted">Solo en peliculas animadas: {{ personaje.soloPeliculaAnimada }}</small></p>
-            <button class="btn btn-primary" routerLink="/mr-increible" routerLinkActive="active">Mas infromacion</button>
+            <button class="btn btn-primary" routerLink="/personajes/{{ personaje.id }}" routerLinkActive="active">Mas infromacion</button>
         </div>
         </div>
     </div>

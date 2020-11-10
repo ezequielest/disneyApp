@@ -1,4 +1,5 @@
 export interface Personajes {
+  id: number;
   nombre: string;
   biografia: string;
   foto: string;

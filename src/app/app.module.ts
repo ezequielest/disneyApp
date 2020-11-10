@@ -11,6 +11,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { HorizontalCardComponent } from './shared/horizontal-card/horizontal-card.component';
 import { MrIncreibleComponent } from './shared/mr-increible/mr-increible.component';
+import { ShowPersonajeComponent } from './show-personaje/show-personaje.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MrIncreibleComponent } from './shared/mr-increible/mr-increible.compone
     AboutUsComponent,
     FooterComponent,
     HorizontalCardComponent,
-    MrIncreibleComponent
+    MrIncreibleComponent,
+    ShowPersonajeComponent
   ],
   imports: [
     BrowserModule,
