@@ -37,6 +37,34 @@ export class PersonajesService {
       cantidadPeliculas: 2,
       tieneVideojuego: false,
       soloPeliculaAnimada: false
-    }]);
+    },
+    { id: 4,
+      nombre: 'Woody',
+      biografia: `Woody es un muñeco de vaquero. Su caja de voz que se activa con una cuerda de tracción con la que es capaz de decir muchas frases simples como "¡Eres mi alguacil preferido!", "¡Hay una serpiente en mi bota!" Y "Alguien ha envenenado el abrevadero!". Como se menciona en Toy Story 2, su construcción incluye una "cara pintada a mano, chaleco teñido con pigmento natural" y un "sombrero de polivinilo cosido a mano". Woody lleva una funda de pistola vacía en su cinturón. Es el juguete favorito de Andy desde el jardín de infantes, con un lugar especial en la cama, y ​​es el líder y el cerebro de los juguetes en la habitación de Andy. En Toy Story 2, se revela que se basa en el personaje principal de un popular programa de televisión de 1950, Woody's Roundup. Cuando Al está negociando con la madre de Andy en un intento de llevarse a Woody, la madre de Andy rechaza la oferta de Al, afirmando que Woody es "un viejo juguete familiar"`,
+      foto: 'boody.png',
+      banner: '',
+      cantidadPeliculas: 6,
+      tieneVideojuego: true,
+      soloPeliculaAnimada: true
+    },
+    { id: 5,
+      nombre: 'Mickey',
+      biografia: 'Mickey Mouse es un personaje ficticio de la serie del mismo nombre, emblema de la compañía Disney. Creado el 18 de noviembre de 1928, este ratón tiene un origen disputado. La leyenda oficial explica que fue creado por Walt Disney durante un viaje en tren y que su nombre inicial fue Mortimer, pero que cambió a Mickey a petición de su esposa, Lillian. Según Bob Thomas, la leyenda del nombre es ficticia, y cita el caso de un personaje llamado Mortimer Mouse, que nació en 1936, tío de Minnie Mouse.1​ La versión más verosímil es que el personaje fue creado por el dibujante Ub Iwerks, a petición de Disney, para compensar la pérdida de los derechos de Oswald, el conejo afortunado, a manos de Universal. Lo cierto es que Mickey no es más que una variación del personaje Oswald.2​ A Walt Disney hay que atribuirle tanto la voz del personaje, como la personalidad y el carácter del ratón',
+      foto: 'mickey.png',
+      banner: '',
+      cantidadPeliculas: 12,
+      tieneVideojuego: true,
+      soloPeliculaAnimada: false
+    },
+    { id: 6,
+      nombre: 'Pinocho',
+      biografia: `Pinocho (en italiano Pinocchio) es un personaje de la literatura italiana y universal. Se trata de una marioneta de madera, protagonista del libro "Las aventuras de Pinocho", escrito por Carlo Collodi, seudónimo de Carlo Lorenzini (Florencia 1826-1890), y publicado en un periódico italiano entre 1882 y 1883, con los títulos "Storia di un Burattino" ("Historia de un títere") y "Le avventure di Pinocchio" ("Las aventuras de Pinocho'"), libro ilustrado por Enrico Mazzanti.`,
+      foto: 'pinocho.png',
+      banner: '',
+      cantidadPeliculas: 1,
+      tieneVideojuego: false,
+      soloPeliculaAnimada: true
+    },
+  ]);
   }
 }
