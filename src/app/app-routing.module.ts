@@ -4,7 +4,6 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PersonajesComponent } from './personajes/personajes.component';
-import { MrIncreibleComponent } from './shared/mr-increible/mr-increible.component';
 import { ShowPersonajeComponent } from './show-personaje/show-personaje.component';
 
 const routes: Routes = [
